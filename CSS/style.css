@@ -1,0 +1,53 @@
+body, h1, h2, h3, p, ul{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Georgia, serif;
+    color: #255255;
+}
+
+*{
+    box-sizing: border-box;
+}
+.conteiner{
+    display: flex;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.menu{
+    background-color: #252525;
+    padding: 15px 0;
+}
+
+.menu-nav a{
+    text-decoration: none;
+    font-size: 1.125em;
+    color: white
+}
+
+.menu-nav ul{
+    list-style-type: none;
+}
+
+.menu-logo{
+    margin: 0 10px;
+}
+
+.menu nav ul{
+    float: right;
+    display: flex;
+    list-style: none;
+}
+
+.menu-nav ul li{
+    padding: 10px;
+}
+.menu-nav{
+    flex: 1;
+    margin: 0 10px;
+    align-self: center;
+}
+
